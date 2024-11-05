@@ -37,7 +37,7 @@ button {
 .wrapper {
     max-width: 1440px;
     min-width: 1200px;
-    max-height: 2500px;
+    height: auto;
     background-color: #0FAF21;
     margin: 0 auto;
     border: 1px solid black;
@@ -244,7 +244,7 @@ button {
 .footer {
     margin: 0 auto;
     max-width: 1200px;
-    height: 148px;
+    height: 168px;
     border-radius: 25px;
     background: #00D478;
     padding-top: 24px;
@@ -390,4 +390,10 @@ button {
 
 .footer-button-icon {
     margin-left: 16px;
+}
+
+.footer-info {
+    font-size: 16px;
+    color: white;
+    text-align: center;
 }
